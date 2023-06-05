@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    tools:context=".AddLawActivity">
+
+    <TextView
+        android:text="Add Law Details"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:textStyle="bold|italic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/mainT"
+        android:textSize="20sp"
+        android:hint="Main Title"
+        android:layout_marginBottom="15dp"
+        android:textColor="#000"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/subT"
+        android:textSize="20sp"
+        android:hint="Sub Title"
+
+        android:layout_marginBottom="15dp"
+        android:textColor="#000"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/desc"
+        android:textSize="20sp"
+        android:hint="Description"
+        android:inputType="textShortMessage"
+        android:layout_marginBottom="15dp"
+        android:textColor="#000"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/wcbd"
+        android:textSize="20sp"
+        android:hint="What can be done?"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="15dp"
+        android:textColor="#000"/>
+
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/refd"
+        android:textSize="20sp"
+        android:hint="Refernec Details"
+        android:layout_marginBottom="15dp"
+        android:textColor="#000"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:id="@+id/add_submit"
+            android:textSize="20sp"
+            android:text="Add"/>
+
+        <Button android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/add_back"
+            android:layout_margin="15dp"
+            android:textSize="20sp"
+            android:text="Back"/></LinearLayout>
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

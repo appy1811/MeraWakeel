@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Update Details"
+        android:background="@color/colorPrimary"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textColor="#fff"/>
+
+
+
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/mainT"
+        android:textSize="20sp"
+        android:hint="Main Title"
+        android:layout_marginBottom="5dp"
+        android:textColor="#000"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/subT"
+        android:textSize="20sp"
+        android:hint="Sub Title"
+        android:layout_marginBottom="5dp"
+        android:textColor="#000"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/desc"
+        android:lines="2"
+        android:textSize="20sp"
+        android:hint="Description"
+        android:layout_marginBottom="5dp"
+        android:textColor="#000"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/wcbd"
+        android:textSize="20sp"
+        android:lines="2"
+        android:hint="What can be done?"
+        android:layout_marginBottom="5dp"
+        android:textColor="#000"/>
+
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ref"
+        android:textSize="20sp"
+        android:hint="Refences"
+        android:layout_marginBottom="5dp"
+        android:textColor="#000"/>
+
+        <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:id="@+id/basubmit"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        />
+
+</LinearLayout>

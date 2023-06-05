@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/splashscreen2"
+    tools:context=".SelectionActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="337dp"
+        android:layout_height="279dp"
+        android:layout_weight="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.212"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="343dp"
+        android:layout_height="135dp"
+        android:gravity="center"
+        android:text="Our priority believes in solving your \n problems.     "
+        android:textColor="@color/ourpriority"
+        android:textSize="34dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.544"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.672" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".SelectionActivity">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="12" >
+
+
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="15dp"
+            android:gravity="bottom"
+            android:orientation="horizontal"
+            android:layout_weight="1" >
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+
+                android:layout_height="match_parent"
+                android:layout_marginRight="5dp"
+                android:onClick="gotohlogin"
+                android:background="@color/mybu"
+                android:textSize="25dp"
+                android:textColor="@color/white"
+                android:text="Admin"/>
+            <Button
+                android:layout_weight="1"
+                android:background="@color/mybu"
+                android:layout_width="0dp"
+                android:textSize="25dp"
+                android:textColor="@color/white"
+                android:layout_height="match_parent"
+                android:onClick="gotoplogin"
+                android:layout_marginLeft="5dp"
+                android:text="User"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
